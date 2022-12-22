@@ -1,0 +1,13 @@
+feature_list:
+- credit_score
+- age
+- balance
+- estimated_salary
+- tenure
+- products_number
+- country
+- gender
+- credit_card
+- active_member
+model_filename: ./model/churn_prediction_model.joblib.pkl
+threshold: 0.31895976689873684
