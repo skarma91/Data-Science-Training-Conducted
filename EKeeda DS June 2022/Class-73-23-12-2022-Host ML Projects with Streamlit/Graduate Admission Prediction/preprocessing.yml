@@ -1,0 +1,13 @@
+CGPA_max: 9.92
+CGPA_min: 6.8
+GRE_Score_max: 340
+GRE_Score_min: 290
+TOEFL_Score_max: 120
+TOEFL_Score_min: 92
+University_Rating_max: 5
+University_Rating_min: 1
+feature_list:
+- scaled_GRE_Score
+- scaled_TOEFL_Score
+- scaled_University_Rating
+- scaled_CGPA
