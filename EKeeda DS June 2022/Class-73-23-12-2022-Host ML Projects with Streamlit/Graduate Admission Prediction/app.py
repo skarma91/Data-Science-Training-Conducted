@@ -45,7 +45,7 @@ with col3:
 col4, col5, col6 = st.columns([8,2,8])
 
 with col4:
-    university_rating = st.selectbox("University ratiing", [1, 2, 3, 4, 5])
+    university_rating = st.selectbox("University rating", [1, 2, 3, 4, 5])
 
 with col6:
     cgpa = st.slider("Provide your CGPA", min_value=preproc_dict['CGPA_min'], max_value=np.round(preproc_dict['CGPA_max']))
